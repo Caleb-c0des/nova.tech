@@ -15,6 +15,7 @@ body {
     background-repeat: no-repeat;
     overflow-x:hidden ;
     background-color: var(--bg);
+    color:var(--muted)
 }
 .logo {
     font-family: 'Syne', sans-serif;
@@ -268,6 +269,12 @@ nav button svg {
 .msep {
     margin-left: 15px;
 }
+.tracker-2 {
+    display:flex;
+    animation:movement 22s linear infinite;
+    gap:60px;
+    width:max-content;
+}
 .head-intro {
     margin-top: 200px;
     color:var(--muted);
@@ -276,7 +283,7 @@ nav button svg {
 .platform {
     padding: 20px;
 }
-.platform1 h1, .software h1 {
+.platform1 h1, .software h1, .hardware h1 {
     font-size: 50px;
     background: linear-gradient(180deg, oklch(100% 0 0) 0%, oklch(65% 0 0) 100%);
     -webkit-background-clip: text;
@@ -401,12 +408,14 @@ nav button svg {
 .image-intro {
     color:var(--muted);
     height:20px;
-    width:100px;
+    width:fit-content;
     border:1px solid #ffffff1a;
     border-radius: 999px;
+    padding: 0 7px 0 7px;
     display: flex;
     align-items: center;
-    font-size: 7px;
+    font-size: 9px;
+    font-weight: 400;
     gap:10px;
     padding-left: 4px;
 }
@@ -439,7 +448,7 @@ nav button svg {
     justify-content: center;
     margin-right: 20px;
 }
-.software {
+.software, .hardware{
     overflow: hidden;
 }
 .image-intro-container {
@@ -459,7 +468,7 @@ nav button svg {
     border:none;
     overflow: hidden;
     height:300px;
-    width:100%;
+    width:600px;
 }
 .heading {
     color:var(--text);
@@ -481,7 +490,7 @@ nav button svg {
     font-size: 13px;
 }
 
-.software {
+.software, .hardware {
     padding: 40px;
 }
 .arrow_left {
@@ -503,4 +512,7 @@ nav button svg {
 }
 .swiper-button-prev, .swiper-button-next {
     float:right;
+}
+.users {
+    text-align: center;
 }
