@@ -13,6 +13,7 @@ body {
     background:url("./images/last.png");
     font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
     background-repeat: no-repeat;
+    overflow-x:hidden ;
     background-color: var(--bg);
 }
 .logo {
@@ -267,7 +268,7 @@ nav button svg {
 .msep {
     margin-left: 15px;
 }
-.platform-intro {
+.head-intro {
     margin-top: 200px;
     color:var(--muted);
     font-size: small;
@@ -275,7 +276,7 @@ nav button svg {
 .platform {
     padding: 20px;
 }
-.platform1 h1 {
+.platform1 h1, .software h1 {
     font-size: 50px;
     background: linear-gradient(180deg, oklch(100% 0 0) 0%, oklch(65% 0 0) 100%);
     -webkit-background-clip: text;
@@ -386,4 +387,120 @@ nav button svg {
     border-bottom: 1px solid #ff000000;
     margin-top: 60px;
     margin-bottom: 40px;
+}
+.intro-flex {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.software-intro { 
+    color:var(--muted);
+    font-weight: 300;
+    line-height: 1.5;
+}
+.image-intro {
+    color:var(--muted);
+    height:20px;
+    width:100px;
+    border:1px solid #ffffff1a;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    font-size: 7px;
+    gap:10px;
+    padding-left: 4px;
+}
+.image-intro svg {
+    color:var(--muted);
+    width:10px;
+    height:10px
+}
+.image-box {
+    width:600px;
+    max-width: 700px;
+    max-height: fit-content;
+    user-select: none;
+    height:fit-content;
+    border: 1px solid #ffffff1a;
+    background-color: #000000;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.image-box img {
+    width:100%;
+    height:300px;
+    border-radius: 20px;
+    aspect-ratio:16/9 ;
+    object-fit: cover;
+    transition: 0.4s;
+}
+.image-box-flex {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+.software {
+    overflow: hidden;
+}
+.image-intro-container {
+    padding: 20px;
+}
+.image-box img:hover {
+    transform:scale(1.2);
+}
+.image-box:hover img {
+    transform: scale(1.2);
+}
+.image-box:hover svg {
+    color:white;
+    transform: translateY(-3px);
+}
+.img-overflow {
+    border:none;
+    overflow: hidden;
+    height:300px;
+    width:100%;
+}
+.heading {
+    color:var(--text);
+    justify-content: space-between;
+    display: flex;
+}
+.des {
+    color:var(--muted);
+    font-size: 15px;
+}
+.description {
+    padding: 20px;
+}
+.hr2 {
+    border: 1px solid #ffffff1a;
+}
+.usage {
+    color:var(--muted);
+    font-size: 13px;
+}
+
+.software {
+    padding: 40px;
+}
+.arrow_left {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.swiper-button-prev {
+    margin-top: 200px;
+}
+.radius-none {
+    scale:1.1;
+}
+.heading svg {
+    height: 20px;
+    width:20px;
+    color: var(--muted);
+    transition: 0.3s ease;
+}
+.swiper-button-prev, .swiper-button-next {
+    float:right;
 }
