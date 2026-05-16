@@ -448,8 +448,7 @@ nav button svg {
     height:10px
 }
 .image-box {
-    width:600px;
-    max-width: 700px;
+    width:fit-content;
     max-height: fit-content;
     user-select: none;
     height:fit-content;
