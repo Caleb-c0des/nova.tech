@@ -759,6 +759,7 @@ nav button svg {
 .svg-box svg:hover {
     color:white;
 }
+
 .name-logo {
     background: linear-gradient(90deg, #2e30331a, rgb(53, 51, 51));
     border-radius: 7px;

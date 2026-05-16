@@ -14,7 +14,7 @@ new Swiper('.image-box-flex', {
       slidesPerView: 1 // Fixed typo here
     },
     768: {
-      slidesPerView: 2 // Fixed typo here
+      slidesPerView: 1 // Fixed typo here
     },
     1024: {
       slidesPerView: 2 // Fixed typo here
