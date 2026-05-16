@@ -80,7 +80,9 @@
         grid-template-columns: repeat(2,1fr);
     
     }
-
+.first-border {
+    margin-top: 140px;
+}
 }
  @media (min-width: 0px) and (max-width: 1000px){
     .main-box {
@@ -112,17 +114,8 @@
         padding: 2px;
     }
 }
-/* @media (min-width:1900px) {
-    .card {
-        width:100vw;
+ @media (min-width:1300px) {
+    .last-hr {
+        margin-top: 500px;
     }
-    .big-card {
-        width:70%;
-    }
-    .small-card {
-        width:50%;
-    }
-    .last-card {
-        width:100vw;
-    }
-} */
+}
