@@ -21,3 +21,29 @@ new Swiper('.image-box-flex', {
     },
   }
 });
+const btn = document.getElementById("down");
+btn.addEventListener("click", () => {
+  window.scrollTo({
+    top: document.body.scrollHeight,
+    behavior: "smooth"
+  });
+});
+
+const cta = document.getElementById("cta");
+const text = document.getElementById("text");
+
+let showing = false;
+
+cta.addEventListener("click", () => {
+
+  if (showing === false) {
+    text.innerText = "This is Nova Tech made by Code with Caleb";
+    showing = true;
+  } 
+  
+  else {
+    text.innerText = "";
+    showing = false;
+  }
+
+});
