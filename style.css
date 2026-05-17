@@ -591,6 +591,7 @@ nav button svg {
     border-top-right-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 0 0.5px #ffffff1a;
+    font-size: 20px;
 }
 .main-box h3 {
     color:var(--text);
@@ -770,4 +771,5 @@ nav button svg {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 600;
 }
