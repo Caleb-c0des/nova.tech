@@ -1,4 +1,16 @@
-
+@media(min-width:1900px) {
+    .software,.hardware,.features {
+        padding: 400px;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}
 @media (max-width:1300px) {
     .intro h1 {
         font-size: 72px;
