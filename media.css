@@ -82,7 +82,7 @@
 }
     .platform-flex {
         flex-direction: column;
-        text-align: center;
+
     }
     .code-box {
         width: 95%;
@@ -101,7 +101,7 @@
         text-align: center;
     }
     .image-container {
-        width:500px;
+        width:340px;
         padding-bottom: 20px;
         margin-left: auto;
         margin-right: auto;
@@ -135,7 +135,12 @@
     }
     .wrapper2 {
         text-align: center;
-        overflow-x: h;
+        overflow-x: hidden;
+        flex-direction: column;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 7px;
     }
     .platform-flex {
         flex-direction: column;
@@ -147,6 +152,11 @@
         width: 100% !important;
         max-width: 100%;
     }
+     .last-flex input{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+     }
     .metrics-boxes {
         flex-direction: column;
         gap: 20px;
@@ -155,11 +165,21 @@
     }
      .last-flex .cta1 {
         margin: 0 0 0 0;
-
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact p {
+        width: 200px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
     .last-flex {
         margin-top: 30px;
+        flex-direction: column;
+        justify-content: center;
     }
+
     .metrics-box-1,
     .metrics-box,
     .metrics-box-end {
