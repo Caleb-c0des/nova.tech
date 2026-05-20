@@ -810,7 +810,6 @@ nav button svg {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
     flex-wrap: wrap;
     max-width: 1300px;
     margin: 0 auto;
